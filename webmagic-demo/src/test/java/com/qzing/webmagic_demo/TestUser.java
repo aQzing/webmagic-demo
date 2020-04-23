@@ -11,10 +11,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 import com.qzing.repository.ClassInfoJpa;
 import com.qzing.webmagic.pojo.ClassInfo;
 
-/**
- * @author 欧阳思海
- * @date 2018/7/26 16:22
- */
+
 @RunWith(SpringRunner.class)
 @SpringBootTest
 public class TestUser {

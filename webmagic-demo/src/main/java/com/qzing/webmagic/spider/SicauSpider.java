@@ -141,7 +141,7 @@ public class SicauSpider implements PageProcessor {
 		}
 		page.putField("roomList", roomList);
 	}
-	@Scheduled(fixedRate=1000*60*60*5,initialDelay = 1000*5)
+	//@Scheduled(fixedRate=1000*60*60*5,initialDelay = 1000*5)
 	public void sicauSpiderRun() {
 		String time = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(new Date());
 		System.out.println("========任务执行时间："+time);
